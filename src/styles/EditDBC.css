@@ -1,0 +1,74 @@
+.Edit-DBC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px 60px;
+}
+
+.Edit-DBC h1 {
+    margin-bottom: 10px;
+}
+
+.edit-image {
+    width: 340px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.character-info {
+    margin: 10px 0 20px;
+    padding: 16px 25px;
+    max-width: 600px;
+    border-radius: 14px;
+    background-color: #464545;
+    border: 2px solid #ff8c1a55;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+.character-info h2 {
+    margin: 6px 0;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.character-info h2 span {
+    color: #ffb347;
+    font-weight: 600;
+}
+
+.edit-dbc-button {
+    margin-top: 10px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff6b1a;
+    color: white;
+    font-size: 1.05rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.edit-dbc-button:hover {
+    background-color: #ff8c3a;
+}
+
+.delete-dbc-button {
+    margin-top: 12px;
+    padding: 10px 24px;
+    border: 2px solid #ff4d4d;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #ff4d4d;
+    font-size: 1.05rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.delete-dbc-button:hover {
+    background-color: #ff4d4d;
+    color: white;
+}

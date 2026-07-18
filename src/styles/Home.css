@@ -1,0 +1,45 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 60px;
+    text-align: center;
+}
+
+.home-page h1 {
+    font-size: 2.6em;
+    line-height: 1.2;
+    max-width: 800px;
+    margin: 10px 0 20px;
+    color: white;
+}
+
+.home-text {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: white;
+    line-height: 1.5;
+}
+
+.home-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-images {
+    width: 380px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 14px;
+    border: 2px solid #ff8c1a55;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease;
+}
+
+.main-images:hover {
+    transform: translateY(-6px);
+}

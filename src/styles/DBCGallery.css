@@ -1,0 +1,18 @@
+.DB-Gallery {
+    padding: 20px 40px 60px;
+    text-align: center;
+}
+
+.DB-Gallery h1 {
+    margin-bottom: 30px;
+}
+
+.DBCharacter-Container {
+    display: grid;
+    grid-template-columns: repeat(3, 260px);
+    gap: 30px;
+    justify-content: center;
+    justify-items: center;
+    max-width: 620px;
+    margin: 0 auto;
+}

@@ -1,0 +1,103 @@
+.create-dbc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px 60px;
+}
+
+.create-dbc h1 {
+    margin-bottom: 10px;
+}
+
+.create-dbcimage {
+    width: 340px;
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.create-dbc-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    font-size: 1.05rem;
+}
+
+.mini-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 20px 25px;
+    min-width: 220px;
+    border-radius: 14px;
+    background-color: #464545;
+    border: 2px solid #ff8c1a55;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+.mini-container h3 {
+    margin: 0 0 4px;
+    color: #ffb347;
+}
+
+.mini-container input[type="text"] {
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #ff8c1a55;
+    background-color: #2b2b2b;
+    color: white;
+    font-size: 1rem;
+}
+
+.mini-container input[type="text"]::placeholder {
+    color: #bbb;
+}
+
+.mini-container input[type="text"]:focus {
+    outline: none;
+    border-color: #ff6b1a;
+}
+
+.mini-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.mini-container li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: left;
+}
+
+.mini-container input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #ff6b1a;
+}
+
+.create-dbc-button {
+    margin-top: 10px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff6b1a;
+    color: white;
+    font-size: 1.05rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.create-dbc-button:hover {
+    background-color: #ff8c3a;
+}
